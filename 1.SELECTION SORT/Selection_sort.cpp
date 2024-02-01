@@ -22,6 +22,6 @@ void selection_sort(vector<int> arr){
     print(arr);
 }
 int main(){
-    vector<int> arr{13,46,24,52,20,9};
+    vector<int> arr{13,46,24,52,20,9,-1};
     selection_sort(arr);    
 }
